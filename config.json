@@ -1,0 +1,20 @@
+{
+    "name": "Structural Service",
+    "tag": "structural-service",
+    "version": "1",
+    "docker-hub": "False",
+    "description": "This API create geometry objects for structural software.",
+    "start-page": "/docs",
+    "environment": {
+    },
+    "environment_backup": {
+
+    },
+    "ports": {
+      "8000/tcp": "8000"
+    },
+    "volumes": {
+
+    }
+
+  }

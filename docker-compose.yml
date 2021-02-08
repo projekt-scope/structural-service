@@ -1,0 +1,16 @@
+# Base configuration
+version: '3'
+
+services:
+
+  structural-service:
+    build: ./
+    container_name: structural-service
+    restart: unless-stopped
+    ports:
+      - 8000:8000
+
+networks:
+    default:
+        external:
+            name: scope-net

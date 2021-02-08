@@ -31,7 +31,7 @@ If you do not want to use Docker you can just create a virtual environment and i
 
 
 # API-Docs
-Since this project is using FastAPI, there are automatically created documentations about the API. If the Server is running you can access them here : `http://localhost:8000/docs`.
+Since this project is using FastAPI, there are automatically created documentations about the API. If the service is running you can access them here : `http://localhost:8000/docs`.
 
 A current version of the OpenAPI can be found in the folder [openAPI](/openAPI/structural-service.json).
 
